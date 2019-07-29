@@ -12,7 +12,15 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.  
+
+Example:  
+`git checkout -b gh-pages`  
+`git remote add origin https://carlos-i-martinez:[password]@github.com/carlos-i-martinez/Angular-Google-Maps.git`  
+`git push origin gh-pages`  
+`npm install -g angular-cli-ghpages`  
+`ng build --prod --base-href https://carlos-i-martinez.github.io/Angular-Google-Maps/`  
+`ngh --dir=dist/[project-name]`  
 
 ## Running unit tests
 
