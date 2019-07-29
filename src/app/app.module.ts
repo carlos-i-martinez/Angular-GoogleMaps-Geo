@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http'
 
 import { AgmCoreModule } from '@agm/core'
 
@@ -16,6 +17,7 @@ import { AgmCoreModule } from '@agm/core'
     CommonModule,
     FormsModule,
     AppRoutingModule,
+    HttpClientModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyByBRF9dtwJeLx1GeCddsB5Ej0zRVmyk50'
     })
