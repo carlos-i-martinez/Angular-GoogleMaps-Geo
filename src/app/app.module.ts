@@ -19,7 +19,7 @@ import { AgmCoreModule } from '@agm/core'
     AppRoutingModule,
     HttpClientModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyByBRF9dtwJeLx1GeCddsB5Ej0zRVmyk50'
+      apiKey: 'Your-API-Key'
     })
   ],
   providers: [],
